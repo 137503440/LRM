@@ -6,7 +6,7 @@
       content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"
       name="viewport"
     />
-    <title>操碎心的晁大王</title>
+    <title>烟花</title>
   </head>
 
   <script src="js/lib/jquery.min.js" type="text/javascript"></script>
@@ -153,7 +153,7 @@
       padding: 20px 15px;
       border-radius: 5px;
       transform: translate(-50%, -70%);
-      -webkit-transform: translate(-50%，-70%);
+      -webkit-transform: translate(-50%, -70%);
       background: #f3f3f3;
     }
     .container .modal p {
@@ -207,60 +207,19 @@
         })
       })
       $('#no').click(function (event) {
-        modal('明人不说暗话！', A)
+        modal('倒计时！', A)
       })
     })
 
     function A() {
-      modal('我就是想给你下药！', B)
+      modal('三', B)
     }
 
     function B() {
-      modal('我知道你在等我这一句话', C)
+      modal('二', C)
     }
-
     function C() {
-      modal('好吃的老鼠药', D)
-    }
-
-    function D() {
-      modal('拒绝我，不存在的', E)
-    }
-
-    function E() {
-      modal('这辈子都不可能让你拒绝我', F)
-    }
-
-    function F() {
-      modal('跟我走吧', G)
-    }
-
-    function G() {
-      modal('我会骑电车', H)
-    }
-
-    function H() {
-      modal('我会做饭，各种口味', X)
-    }
-    function X() {
-      modal('黄瓜味的最多！', I)
-    }
-
-    function I() {
-      modal('快看，天上有流星', J)
-    }
-
-    function J() {
-      modal('快许愿，考试过关，学位证到手', Y)
-    }
-    function Y() {
-      modal('完犊子，流星都过去了，没看到', Z)
-    }
-    function Z() {
-      modal('看到只能放大招了', K)
-    }
-    function K() {
-      modal('考试过关，晁大王，闭眼许愿', function () {
+      modal('一', function () {
         fireworks()
       })
     }
